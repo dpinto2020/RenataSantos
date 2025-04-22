@@ -34,7 +34,7 @@
 			 text-align: center;
 			 font-family: coursive;
 			font-weight: bold;
-            font-size: clamp(21px, 5vw, 38px);
+            font-size: clamp(19px, 5vw, 38px);
 			width: 100%;
 		}
 	
