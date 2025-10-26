@@ -4,7 +4,7 @@
     --secondary-color: #ffffff; /* Fundo Secundário (Branco) */
     --text-color: #222222; /* Preto Quase Absoluto para Texto */
     --light-color: #ffffff; /* Branco Puro */
-    --dark-color: #19191a; /* Preto Puro (Usado apenas em detalhes se necessário) */
+    --dark-color: #000000; /* Preto Puro (Usado apenas em detalhes se necessário) */
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Montserrat', sans-serif;
 }
@@ -301,6 +301,7 @@ h4 {
         text-align: center;
     }
 }
+
 
 
 
