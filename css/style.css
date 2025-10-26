@@ -1,6 +1,6 @@
 /* Configurações Globais e Variáveis */
 :root {
-    --primary-color: #ab790c; /* Dourado */
+    --primary-color: #19191a; /* Dourado */
     --secondary-color: #ffffff; /* Fundo Secundário (Branco) */
     --text-color: #222222; /* Preto Quase Absoluto para Texto */
     --light-color: #ffffff; /* Branco Puro */
@@ -301,3 +301,4 @@ h4 {
         text-align: center;
     }
 }
+
