@@ -25,6 +25,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+	margin-top: 1px;
     padding: 20px;
 }
 
@@ -108,7 +109,18 @@ h4 {
     /* Se você quiser o fundo do Hero BRANCO também, mude o 'background' para: background-color: var(--light-color); e a cor dos h1, h2 e p para var(--text-color); */
     color: var(--light-color);
     text-align: center;
-    padding: 100px 20px;
+    padding: 10px 20px;
+	
+}
+
+.cabe{
+     margin-top:0px;
+	background-image: url("../images/Renata Santos.png");  
+	width: 100%;          /* ocupa toda a largura disponível */
+    height: 100%;
+   background-position: center;
+   background-repeat: no-repeat; 
+   
 }
 
 .hero-section h1 {
@@ -130,8 +142,9 @@ h4 {
 
 /* SEÇÃO SOBRE NÓS */
 .about-section {
-    padding: 60px 0;
+    padding: 10px 0;
     background-color: var(--light-color); /* Fundo Branco */
+	margin-top:0px;
 }
 
 .about-content {
@@ -149,15 +162,18 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Cinza muito claro para indicar falta de imagem */
+   
     color: #666;
     text-align: center;
     border-radius: 8px;
 }
 
 .about-img {
+	background-image: url("../images/Renata.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center;
     flex: 1;
-    min-height: 300px; 
+    min-height: 400px; 
 }
 
 
@@ -170,7 +186,7 @@ h4 {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 30px;
     margin-bottom: 40px;
 }
@@ -183,6 +199,7 @@ h4 {
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
+	min-width: 200px;
 }
 
 .service-card:hover {
@@ -191,8 +208,35 @@ h4 {
 }
 
 .service-img {
-    height: 150px; 
+	height: 150px; 
     margin-bottom: 15px;
+}
+
+.service-limpeza {
+	background-image: url("../images/LIMPEZA_PELE.jpg");  
+	background-size: cover; 
+	min-height: 300px;	
+}
+
+.service-hamonizacao {
+
+	background-image: url("../images/HARMONIZACAO.jpg");  
+	background-size: cover; 
+	min-height: 300px;
+}
+
+.service-peim {
+	
+	background-image: url("../images/PEIM.jpg");  
+	background-size: cover; 
+	min-height: 300px;
+}
+
+.service-microagulhamento {
+
+	background-image: url("../images/MICROAGULHAMENTO.jpg");  
+	background-size: cover; 
+	min-height: 300px;
 }
 
 /* SEÇÃO DE CTA (Depoimento) */
@@ -261,12 +305,23 @@ h4 {
     color: #888;
 }
 
+.desenv {
+    text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+    color: #888;
+
+}
+
 /* MEDIA QUERIES PARA RESPONSIVIDADE (CELULAR) */
 @media (max-width: 768px) {
     /* ... (manter as regras de responsividade) ... */
     
     .hero-section {
         padding: 60px 15px;
+		width: 100%; 
+		height:100%;
+		 background-size: 100% auto; 
     }
     
     .hero-section h1 {
@@ -284,7 +339,7 @@ h4 {
 
     .about-img {
         width: 100%; 
-        min-height: 200px;
+        height: 100%;
         order: -1; 
     }
 
@@ -300,8 +355,6 @@ h4 {
     .footer-content > div {
         text-align: center;
     }
+	
+
 }
-
-
-
-
