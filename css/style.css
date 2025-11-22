@@ -170,7 +170,7 @@ h4 {
 }
 
 .about-img {
-	background-image: url("../images/Renata.jpg"); 
+	background-image: url("../images/Renata.png"); 
 	background-repeat: no-repeat; 
 	background-position: center;
     flex: 1;
@@ -368,3 +368,4 @@ h4 {
 	
 
 }
+
